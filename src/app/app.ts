@@ -13,10 +13,7 @@ export class App {
   value: string = '';
 
   toDecimal() {
-    console.log('toDecimal()');
-  }
-
-  toLinear11() {
-    console.log('toLinear11()');
+    const decimalValue = conversion.linear11ToDecimal(this.value)
+    console.log('decimalValue: ', decimalValue);
   }
 }
