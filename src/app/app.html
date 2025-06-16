@@ -1,0 +1,11 @@
+<main class="main">
+  <div class="container">
+    <div>Input a Linear-11 Value (4 hexadecimal digits)</div>
+    <input type="text" [(ngModel)]="value" />
+  </div>
+  <div class="buttons">
+    <button (click)="toDecimal()">To Decimal</button>
+    <button (click)="toLinear11()">To Linear-11</button>
+  </div>
+</main>
+<router-outlet />
