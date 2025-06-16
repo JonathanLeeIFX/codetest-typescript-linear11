@@ -22,13 +22,6 @@ If we convert these two numbers into integers, they are used in the following fo
 Decimal Value = Y * 2^(X)
 ```
 
-## Conversion Process
-You will be implementing the following conversion process:
-1. Convert the hexadecimal input into a binary string.
-2. Extract the 5 most significant bits from the binary string and convert it to a signed integer. Store it as the Exponent and print it.
-3. Extract the 11 least significant bits from the binary string and convert it to a signed integer. Store it as the Mantissa and print it.
-4. Plug these two values into the `Decimal Value` formula above and print it.
-
 ## Examples
 Input: E801
 
